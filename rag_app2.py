@@ -24,10 +24,10 @@ st.markdown("<h1 style='text-align: center; color: white;'>✨ Data Seekho Guide
 @st.cache_data
 def load_data():
     loader = WebBaseLoader([
-        # "https://dataseekho.com/",
-        # "https://dataseekho.com/free-courses/",
-        # # "https://dataseekho.com/join-us/",
-        "https://www.f6s.com/company/dataseekho#about"
+        "https://dataseekho.com/",
+        "https://dataseekho.com/free-courses/",
+         "https://dataseekho.com/join-us/"
+        # "https://www.f6s.com/company/dataseekho#about"
         # "https://dataseekho.com/about-us/"
     ])
     return loader.load()
