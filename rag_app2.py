@@ -27,7 +27,7 @@ def load_data():
         "https://dataseekho.com/",
         "https://dataseekho.com/free-courses/",
          "https://dataseekho.com/join-us/"
-        # "https://dataseekho.com/about-us/"
+        "https://dataseekho.com/about-us/"
     ])
     return loader.load()
 
