@@ -73,7 +73,7 @@ prompt = ChatPromptTemplate.from_messages(
 # User input and response generation
 query = st.text_input("🗣️ Enter your query:")
 
-if query:
+if button("submit"):
     question_answer_chain = create_stuff_documents_chain(llm, prompt)
     rag_chain = create_retrieval_chain(retriever, question_answer_chain)
     response = rag_chain.invoke({"input": query})
