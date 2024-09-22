@@ -18,7 +18,7 @@ st.sidebar.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNl6Gok8
 st.sidebar.markdown("Welcome to the Data Seekho Guide developed by Najma Razzaq. This app is designed to provide you with information about Data Seekho.")
 
 # Main title
-st.markdown("<h1 style='text-align: center; color: white;'>✨ Data Seekho Guide</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'><span style='color: #7abd06;'>Data</span> <span style='color: white;'>Seekho Guide</span></h1>", unsafe_allow_html=True)
 
 # Load data from a website (cache the function to prevent repeated fetching)
 @st.cache_data
