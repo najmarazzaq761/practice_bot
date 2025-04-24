@@ -14,7 +14,7 @@ from langchain_core.prompts import ChatPromptTemplate
 st.set_page_config(page_title="✨ Data Seekho Guide", page_icon="🧠", layout="wide")
 
 # Sidebar content 
-st.sidebar.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNl6Gok8ubOtQLNgMDmKQQGFdV5OtfJWYSOqyYTfM-uNml-vaBpavqlUXpdYdoHWed0LY&usqp=CAU", use_column_width=True)
+st.sidebar.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNl6Gok8ubOtQLNgMDmKQQGFdV5OtfJWYSOqyYTfM-uNml-vaBpavqlUXpdYdoHWed0LY&usqp=CAU", use_container_width=True)
 st.sidebar.markdown("Welcome to the Data Seekho Guide developed by Najma Razzaq. This app is designed to provide you with information about Data Seekho.")
 
 # Main title
